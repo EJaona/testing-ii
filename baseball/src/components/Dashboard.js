@@ -8,3 +8,5 @@ const Dashboard = props => (
     <input type="button" value="Hit" />
   </div>
 );
+
+export default Dashboard;
