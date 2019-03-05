@@ -1,9 +1,9 @@
-import React, { Component } from "react";
+import React from "react";
 
 const Display = props => (
   <div>
-    <h1>{this.state.balls}</h1>
-    <h1>{this.state.strikes}</h1>
+    <h1>Ball: {props.state.balls}</h1>
+    <h1>Strike: {props.state.strikes}</h1>
   </div>
 );
 
